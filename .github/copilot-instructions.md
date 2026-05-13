@@ -48,6 +48,35 @@ Logica do agente:
 exemplos
 ![codigo do agente](image-6.png)
 
+Memoria, orquesração e workflows avançados:
+- in memory session management: implementar uma camada de memória para armazenar o contexto das conversas e as informações relevantes para cada usuário, permitindo que o agente mantenha um histórico de interações e forneça respostas mais personalizadas e contextuais.
+
+- database session management: usar o banco de dados para armazenar informações de sessão e histórico de interações, permitindo que o agente acesse essas informações mesmo após reinicializações ou falhas.
+
+vertex ai session management: explorar as capacidades de gerenciamento de sessões do Vertex AI para criar agentes que possam manter o contexto e a continuidade das conversas, mesmo em ambientes distribuídos ou com múltiplos usuários.
+
+![exemplo](image-7.png)
 
 
+Sistema multiagente e orquestração:
+- um supervisor agent para coordenar as atividades de múltiplos agentes especializados, garantindo que eles trabalhem juntos de forma eficiente e eficaz para alcançar os objetivos do sistema.
+- agentes especializados para tarefas específicas, como um agente de consulta de estoque, um agente de análise de dados e um agente de atendimento ao cliente, cada um com suas próprias responsabilidades e capacidades.
+- um mecanismo de comunicação e coordenação entre os agentes, permitindo que eles compartilhem informações
 
+![exemplo](image-8.png)
+
+workflows avançados:
+![exemplo fluxo sequencial](image-9.png)
+
+![exemplo fluxo paralelo](image-10.png)
+
+![exemplo de fluxo de iteração](image-11.png)
+
+Callback e Observability:
+![exmeplo](image-12.png)
+
+
+Exemplo construindo agente executor de codigo:
+ferramenta padrao do google adk que executa codigo: ![exemplo agente de code execution](image-14.png)
+agente como tool do agente supervisor:
+![exemplo](image-13.png)
