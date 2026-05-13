@@ -80,3 +80,12 @@ Exemplo construindo agente executor de codigo:
 ferramenta padrao do google adk que executa codigo: ![exemplo agente de code execution](image-14.png)
 agente como tool do agente supervisor:
 ![exemplo](image-13.png)
+
+
+DESCRIÇÃO DO PROJETO A SER CRIADO:
+Desenvolva um agente em Python capaz de automatizar tarefas e etapas de um fluxo de trabalho, explorando integração entre ferramentas, lógica de automação e uso de IA para aumentar produtividade e eficiência em processos.
+- integrar como o trello
+- criar ambiente virtual
+- configurar um agente orquestrador e agentes especializados para organizar tarefas
+- criar lista de tarefas no trello via esse agente
+- Automatizar a movimentação de tarefas no trello com base em regras definidas (ex: mover para "Em Progresso" quando começar a tarefa, mover para "Concluído" quando finalizar)
